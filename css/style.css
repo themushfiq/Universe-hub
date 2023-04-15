@@ -1,0 +1,77 @@
+/* Loading Spinner */
+#loading-spinner img {
+    height: 6vw;
+    width: 6vw;
+}
+
+/* Date img */
+.date-img img {
+    height: 15px;
+    width: 15px;
+}
+
+.publish-data {
+    padding-top: 2px;
+}
+
+.right-arrow {
+    border: hidden;
+    background-color: rgb(252, 245, 245);
+    
+}
+#radius{
+    border-radius:50px;
+}
+
+.right-arrow img {
+    height: 30px;
+    padding: 10px;
+}
+
+.modal {
+    position: relative;
+}
+
+.modal-header {
+    position:absolute;
+    margin: 2.5% 0% 0% 85%;
+    z-index: 2;
+}
+.modal-header button {
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#leftCardTitle {
+    line-height: 1.5;
+}
+
+/* modal accuracy */
+#right-div {
+    position: relative;
+}
+
+.accuracy {
+    position: absolute;
+    margin-left: 22.7vw;
+}
+
+.modal-card1 {
+    background-color: rgba(235, 87, 87, 0.05);
+}
+
+.pricing-card {
+    border: hidden !important;
+}
+
+.featureInte {
+    background-color: rgba(235, 87, 87, 0.05);
+}
+
+/* main card */
+.mainCard {
+    border: hidden !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

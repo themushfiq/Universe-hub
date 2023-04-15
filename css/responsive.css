@@ -1,0 +1,51 @@
+/* x-large devices (large desktops) */
+@media (min-width: 1400.98px) and (max-width:2500px) {
+    .accuracy {
+        margin-left: 22.7vw;
+    }
+
+    .modal-header {
+        margin: 3% 0% 0% 85.5%;
+    }
+
+}
+
+/* (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .accuracy {
+        margin-left: 6.6vw;
+    }
+
+    .modal-header {
+        margin: 0.5% 0% 0% 73%;
+    }
+}
+
+/* Mobile device applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .accuracy {
+        margin-left: 9.6vw;
+    }
+
+    .modal-header {
+        margin: 0.5% 0% 0% 80%;
+    }
+}
+
+/*Smart Phone x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .accuracy {
+        margin-left: 48.6vw;
+    }
+
+    .modal-header {
+        margin: 2% 0% 0% 80%;
+    }
+
+    .modal-header button {
+        background-color: red;
+
+        height: 20px;
+        width: 20px;
+    }
+}
